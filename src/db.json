@@ -1,0 +1,453 @@
+[
+  {
+    "id": 1,
+    "name": "Cредство для мытья посуды Crystal",
+    "image": {
+      "url": "/images/aos.png",
+      "small": {
+        "url": "/images/small_aos.png"
+      }
+    },
+    "measure_unit": "мл",
+    "volume": 450,
+    "quantity_in_package": 1,
+    "barcode": 4604049097548,
+    "manufacturer": "Нэфис",
+    "brand": "Aos",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 38.90,
+    "care_category": [
+      "Уход за руками",
+      "Уход за лицом"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 2,
+    "name": "Автомат Гель СМС жидкое в растворимых капсулах Liquid Capsules Горный родник",
+    "image": {
+      "url": "/images/ariel.png",
+      "small": {
+        "url": "/images/small_ariel.png"
+      }
+    },
+    "measure_unit": "г",
+    "volume": 28.8,
+    "quantity_in_package": 15,
+    "barcode": 4604049096248,
+    "manufacturer": "Нэфис",
+    "brand": "Ariel",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 55.90,
+    "care_category": [
+      "Уход за руками"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 3,
+    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
+    "image": {
+      "url": "/images/bimax.png",
+      "small": {
+        "url": "/images/small_bimax.png"
+      }
+    },
+    "measure_unit": "г",
+    "volume": 1500,
+    "quantity_in_package": 1,
+    "barcode": 4604049097333,
+    "manufacturer": "Нэфис",
+    "brand": "Bimax",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 43.90,
+    "care_category": [
+      "Уход за руками",
+      "Уход за ногами"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 4,
+    "name": "BIO-SOAP Экологичное туалетное мыло. Литсея и бергамот",
+    "image": {
+      "url": "/images/bio-mio.png",
+      "small": {
+        "url": "/images/small_bio-mio.png"
+      }
+    },
+    "measure_unit": "г",
+    "volume": 90,
+    "quantity_in_package": 1,
+    "barcode": 4604049097777,
+    "manufacturer": "Нэфис",
+    "brand": "BioMio",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 47.90,
+    "care_category": [
+      "Уход за руками",
+      "Уход за лицом",
+      "Уход за телом"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 5,
+    "name": "Ср-во для мытья посуды Апельсин+мята",
+    "image": {
+      "url": "/images/sorti.png",
+      "small": {
+        "url": "/images/small_sorti.png"
+      }
+    },
+    "measure_unit": "мл",
+    "volume": 450,
+    "quantity_in_package": 1,
+    "barcode": 4604049091234,
+    "manufacturer": "Нэфис",
+    "brand": "Sorti",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 58.90,
+    "care_category": [],
+    "is_available": true
+  },
+  {
+    "id": 6,
+    "name": "Дезодорант женский, эффект пудры спрей",
+    "image": {
+      "url": "/images/nivea.jpg",
+      "small": {
+        "url": "/images/small_nivea.jpg"
+      }
+    },
+    "measure_unit": "мл",
+    "volume": 50,
+    "quantity_in_package": 1,
+    "barcode": 4604049094321,
+    "manufacturer": "Нэфис",
+    "brand": "Nivea",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 88.90,
+    "care_category": [
+      "Уход за телом"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 7,
+    "name": "Крем для ног Теплые носочки Питательный",
+    "image": {
+      "url": "/images/organic.jpg",
+      "small": {
+        "url": "/images/small_organic.jpg"
+      }
+    },
+    "measure_unit": "мл",
+    "volume": 100,
+    "quantity_in_package": 1,
+    "barcode": 4604049094555,
+    "manufacturer": "Нэфис",
+    "brand": "ORGANIC KITCHEN",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 75.90,
+    "care_category": [
+      "Уход за ногами"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 8,
+    "name": "Cредство для мытья посуды Crystal",
+    "image": {
+      "url": "/images/aos.png",
+      "small": {
+        "url": "/images/small_aos.png"
+      }
+    },
+    "measure_unit": "мл",
+    "volume": 450,
+    "quantity_in_package": 1,
+    "barcode": 4604049097566,
+    "manufacturer": "Нэфис",
+    "brand": "Aos",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 56.90,
+    "care_category": [
+      "Уход за лицом"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 9,
+    "name": "Автомат Гель СМС жидкое в растворимых капсулах Liquid Capsules Горный родник",
+    "image": {
+      "url": "/images/ariel.png",
+      "small": {
+        "url": "/images/small_ariel.png"
+      }
+    },
+    "measure_unit": "г",
+    "volume": 25,
+    "quantity_in_package": 18,
+    "barcode": 4604049096357,
+    "manufacturer": "Нэфис",
+    "brand": "Ariel",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 57.90,
+    "care_category": [
+      "Уход за ногами",
+      "Уход за телом"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 10,
+    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
+    "image": {
+      "url": "/images/bimax.png",
+      "small": {
+        "url": "/images/small_bimax.png"
+      }
+    },
+    "measure_unit": "г",
+    "volume": 1000,
+    "quantity_in_package": 1,
+    "barcode": 4604049097333,
+    "manufacturer": "Нэфис",
+    "brand": "Bimax",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 63.90,
+    "care_category": [
+      "Уход за ногами",
+      "Уход за руками"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 11,
+    "name": "BIO-SOAP Экологичное туалетное мыло. Литсея и бергамот",
+    "image": {
+      "url": "/images/bio-mio.png",
+      "small": {
+        "url": "/images/small_bio-mio.png"
+      }
+    },
+    "measure_unit": "г",
+    "volume": 120,
+    "quantity_in_package": 1,
+    "barcode": 4604049097555,
+    "manufacturer": "Нэфис",
+    "brand": "BioMio",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 61.90,
+    "care_category": [
+      "Уход за лицом",
+      "Уход за телом"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 12,
+    "name": "Ср-во для мытья посуды Апельсин+мята",
+    "image": {
+      "url": "/images/sorti.png",
+      "small": {
+        "url": "/images/small_sorti.png"
+      }
+    },
+    "measure_unit": "мл",
+    "volume": 500,
+    "quantity_in_package": 1,
+    "barcode": 4604049091444,
+    "manufacturer": "Нэфис",
+    "brand": "Sorti",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 66.90,
+    "care_category": [
+      "Уход за волосами"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 13,
+    "name": "Дезодорант женский эффект пудры спрей",
+    "image": {
+      "url": "/images/nivea.jpg",
+      "small": {
+        "url": "/images/small_nivea.jpg"
+      }
+    },
+    "measure_unit": "мл",
+    "volume": 50,
+    "quantity_in_package": 2,
+    "barcode": 4604049094345,
+    "manufacturer": "Нэфис",
+    "brand": "Nivea",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 115.90,
+    "care_category": [
+      "Уход за телом",
+      "Уход за ногами"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 14,
+    "name": "Крем для ног Теплые носочки Питательный",
+    "image": {
+      "url": "/images/organic.jpg",
+      "small": {
+        "url": "/images/small_organic.jpg"
+      }
+    },
+    "measure_unit": "мл",
+    "volume": 100,
+    "quantity_in_package": 1,
+    "barcode": 4604049094577,
+    "manufacturer": "Нэфис",
+    "brand": "ORGANIC KITCHEN",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 83.90,
+    "care_category": [
+      "Уход за ногами",
+      "Уход за телом"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 15,
+    "name": "СМС жидкое в растворимых капсулах Liquid Capsules Горный родник",
+    "image": {
+      "url": "/images/ariel.png",
+      "small": {
+        "url": "/images/small_ariel.png"
+      }
+    },
+    "measure_unit": "г",
+    "volume": 35,
+    "quantity_in_package": 10,
+    "barcode": 4604049096365,
+    "manufacturer": "Нэфис",
+    "brand": "Ariel",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 67.20,
+    "care_category": [
+      "Уход за руками",
+      "Уход за волосами"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 16,
+    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
+    "image": {
+      "url": "/images/bimax.png",
+      "small": {
+        "url": "/images/small_bimax.png"
+      }
+    },
+    "measure_unit": "г",
+    "volume": 1500,
+    "quantity_in_package": 1,
+    "barcode": 4604049097333,
+    "manufacturer": "Нэфис",
+    "brand": "Bimax",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 63.90,
+    "care_category": [
+      "Уход за ногами"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 17,
+    "name": "BIO-SOAP Экологичное туалетное мыло. Литсея и бергамот",
+    "image": {
+      "url": "/images/bio-mio.png",
+      "small": {
+        "url": "/images/small_bio-mio.png"
+      }
+    },
+    "measure_unit": "г",
+    "volume": 90,
+    "quantity_in_package": 5,
+    "barcode": 4604049097777,
+    "manufacturer": "Нэфис",
+    "brand": "BioMio",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 95.00,
+    "care_category": [
+      "Уход за лицом",
+      "Уход за телом"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 18,
+    "name": "Ср-во для мытья посуды Апельсин+мята",
+    "image": {
+      "url": "/images/sorti.png",
+      "small": {
+        "url": "/images/small_sorti.png"
+      }
+    },
+    "measure_unit": "мл",
+    "volume": 700,
+    "quantity_in_package": 1,
+    "barcode": 4604049091651,
+    "manufacturer": "Нэфис",
+    "brand": "Sorti",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 63.90,
+    "care_category": [
+      "Уход за волосами"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 19,
+    "name": "Дезодорант женский, эффект пудры спрей",
+    "image": {
+      "url": "/images/nivea.jpg",
+      "small": {
+        "url": "/images/small_nivea.jpg"
+      }
+    },
+    "measure_unit": "мл",
+    "volume": 50,
+    "quantity_in_package": 1,
+    "barcode": 4604049094321,
+    "manufacturer": "Нэфис",
+    "brand": "Nivea",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 88.90,
+    "care_category": [
+      "Уход за телом",
+      "Уход за руками"
+    ],
+    "is_available": true
+  },
+  {
+    "id": 20,
+    "name": "Крем для ног Теплые носочки Питательный",
+    "image": {
+      "url": "/images/organic.jpg",
+      "small": {
+        "url": "/images/small_organic.jpg"
+      }
+    },
+    "measure_unit": "мл",
+    "volume": 100,
+    "quantity_in_package": 1,
+    "barcode": 4604049094555,
+    "manufacturer": "Нэфис",
+    "brand": "ORGANIC KITCHEN",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": 75.90,
+    "care_category": [
+      "Уход за ногами",
+      "Уход за телом"
+    ],
+    "is_available": true
+  }
+]
