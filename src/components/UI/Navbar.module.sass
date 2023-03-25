@@ -1,0 +1,11 @@
+$size: 30px
+
+.navigation
+  display: flex
+  align-items: center
+  gap: $size
+  height: $size
+
+  & li:not(:first-of-type)
+    padding-left: $size
+    border-left: 1px dashed transparentize(#3F4E65, 0.9)
