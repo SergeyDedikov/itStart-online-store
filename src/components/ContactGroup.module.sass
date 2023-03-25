@@ -1,0 +1,54 @@
+.contact
+  display: flex
+  align-items: center
+  gap: 15px
+
+  &__wrapper
+    display: flex
+    flex-direction: column
+
+    & p:not(:first-child)
+      font-weight: 300
+      font-size: 12px
+      line-height: 1.3
+
+    & p:first-child
+      font-weight: 600
+      color: var(--color-text)
+
+    & a
+      font-size: 10px
+      text-decoration: underline
+
+    &--right
+      align-items: flex-end
+
+  &--right
+    flex-direction: row-reverse
+
+$size: 20px
+
+.icon
+  flex: 1 0 $size
+  width: $size
+  height: $size
+  background-image: url('../images/ui/icon_not_icon.svg')
+  background-position: center
+  background-repeat: no-repeat
+
+  &--large
+    flex: 1 0 $size * 3.5
+    width: $size * 3.5
+    height: $size * 4.5
+
+  &.address
+    background-image: url('../images/ui/icon_address.svg')
+
+  &.email
+    background-image: url('../images/ui/icon_email.svg')
+
+  &.tel
+    background-image: url('../images/ui/icon_call-me.png')
+
+.not-visible
+  display: none
