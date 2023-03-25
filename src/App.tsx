@@ -1,14 +1,13 @@
 import React from 'react';
+import { BrowserRouter } from "react-router-dom";
 
-import Container from './components/Container';
+import Header from './components/Header';
 
 function App() {
   return (
-
-    <Container>
-      hello world
-    </Container>
-
+    <BrowserRouter>
+      <Header />
+    </BrowserRouter>
   );
 }
 
