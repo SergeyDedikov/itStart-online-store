@@ -4,6 +4,7 @@ import './Header.sass';
 import Container from './Container';
 import Navbar from './UI/Navbar';
 import ContactGroup, { ContactVariantType, ContactVariantAlign } from './ContactGroup';
+import Logo from './Logo';
 
 const Header: FC = () => {
 
@@ -43,7 +44,9 @@ const Header: FC = () => {
       <div className='header__wrapper header__wrapper--border'>
         <Container>
           <div className='header__row'>
-            <div className="header__group"></div>
+            <div className="header__group">
+              <Logo />
+            </div>
             <div className="header__group"></div>
           </div>
         </Container>
