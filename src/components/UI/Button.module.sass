@@ -1,0 +1,44 @@
+$size: 10px
+
+.button
+  width: $size * 19
+  height: $size * 6
+  padding: $size $size * 2
+  border: none
+  border-radius: $size * 10
+  background: none
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: $size
+  background-color: var(--color-primary)
+  color: var(--color-bg)
+  font-weight: 700
+  font-size: 14px
+  line-height: 1.2
+
+  &:hover
+    cursor: pointer
+    background-color: var(--color-primary-dark)
+/* 
+  &--primary
+    gap: 0 */
+
+.icon
+  width: $size * 1.5
+  aspect-ratio: 1
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  
+  &.not-visible
+    display: none
+
+  &--catalog
+    background-image: url('../../images/ui/icon_btn_catalog.svg')
+  
+  &--search
+    background-image: url('../../images/ui/icon_btn_search.svg')
+  
+  &--download
+    background-image: url('../../images/ui/icon_btn_download.svg')
