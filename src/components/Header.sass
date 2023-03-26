@@ -1,19 +1,32 @@
 $border: 1px solid transparentize(#3F4E65, 0.8)
 
+%flexAlCenter
+  display: flex
+  align-items: center
+
 .header
   &__group
-    display: flex
+    @extend %flexAlCenter
     gap: 40px
 
+    &--separate
+      $size: 25px
+      gap: $size
+      height: $size * 2
+
+      & li:not(:first-of-type)
+        padding-left: $size
+        border-left: 1px dashed transparentize(#3F4E65, 0.9)
+
   &__row
-    display: flex
-    align-items: center
+    @extend %flexAlCenter
     justify-content: space-between
 
   &__wrapper
-    // height: 60px
-        
+    min-height: 60px
+
     &--border
-      height: 110px
+      padding: 10px 0
+      // min-height: 110px
       border-bottom: $border
       border-top: $border

@@ -4,7 +4,8 @@ import './Header.sass';
 import Container from './Container';
 import Navbar from './UI/Navbar';
 import ContactGroup, { ContactVariantType, ContactVariantAlign } from './ContactGroup';
-import Logo from './Logo';
+import Logo from './UI/Logo';
+import Button from './UI/Button';
 
 const Header: FC = () => {
 
@@ -25,14 +26,6 @@ const Header: FC = () => {
                 firstLine={'opt.sultan@mail.ru'}
                 secondLine={'На связи в любое время'}
               />
-              <ContactGroup
-                icon={ContactVariantType.tel}
-                isLargeIcon={true}
-                firstLine={'+7 (777) 490-00-91'}
-                secondLine={'время работы: 9:00-20:00'}
-                align={ContactVariantAlign.right}
-                textLink={'Заказать звонок'}
-              />
             </div>
             <div className="header__group">
               <Navbar />
@@ -46,8 +39,41 @@ const Header: FC = () => {
           <div className='header__row'>
             <div className="header__group">
               <Logo />
+              <Button
+                status='catalog'
+                type='button'
+              >
+                Каталог
+              </Button>
+              <Button
+                status='search'
+                type='button'
+              >
+                Поиск
+              </Button>
             </div>
-            <div className="header__group"></div>
+            <ul className="header__group header__group--separate">
+              <li><ContactGroup
+                icon={ContactVariantType.tel}
+                isLargeIcon={true}
+                firstLine={'+7 (777) 490-00-91'}
+                secondLine={'время работы: 9:00-20:00'}
+                align={ContactVariantAlign.right}
+                textLink={'Заказать звонок'}
+              />
+              </li>
+              <li>
+                <Button
+                  status='download'
+                  type='button'
+                >
+                  Прайс-лист
+                </Button>
+              </li>
+              <li>
+
+              </li>
+            </ul>
           </div>
         </Container>
       </div>
