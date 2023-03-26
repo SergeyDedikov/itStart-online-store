@@ -6,6 +6,7 @@ import Navbar from './UI/Navbar';
 import ContactGroup, { ContactVariantType, ContactVariantAlign } from './ContactGroup';
 import Logo from './UI/Logo';
 import Button from './UI/Button';
+import CartInformer from './CartInformer';
 
 const Header: FC = () => {
 
@@ -71,7 +72,7 @@ const Header: FC = () => {
                 </Button>
               </li>
               <li>
-
+                <CartInformer amount={1234} count={7} />
               </li>
             </ul>
           </div>
