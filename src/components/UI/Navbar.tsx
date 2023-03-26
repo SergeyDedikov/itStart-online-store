@@ -8,10 +8,10 @@ const Navbar = () => {
   return (
     <nav>
       <ul className={cn.navigation}>
-        <Link to="/about">О компании</Link>
-        <Link to="/delivery">Доставка и оплата</Link>
-        <Link to="/refund">Возврат</Link>
-        <Link to="/contacts">Контакты</Link>
+        <li><Link to="/about">О компании</Link></li>
+        <li><Link to="/delivery">Доставка и оплата</Link></li>
+        <li><Link to="/refund">Возврат</Link></li>
+        <li><Link to="/contacts">Контакты</Link></li>
       </ul>
     </nav>
   );
