@@ -7,6 +7,8 @@ import ContactGroup, { ContactVariantType, ContactVariantAlign } from './Contact
 import Logo from './UI/Logo';
 import Button from './UI/Button';
 import CartInformer from './CartInformer';
+import SimpleForm from './UI/SimpleForm';
+import Input from './UI/Input';
 
 const Header: FC = () => {
 
@@ -46,12 +48,16 @@ const Header: FC = () => {
               >
                 Каталог
               </Button>
-              <Button
-                status='search'
-                type='button'
-              >
-                Поиск
-              </Button>
+              <SimpleForm bgColor={'gray'}>
+                <Input
+                  type="text"
+                  placeholder="Поиск..."
+                />
+                <Button
+                  status={"search"}
+                  type="button"
+                />
+              </SimpleForm>
             </div>
             <ul className="header__group header__group--separate">
               <li><ContactGroup
