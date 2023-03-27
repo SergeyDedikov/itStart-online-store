@@ -14,7 +14,8 @@ export interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   'arrow' |
   'edit' |
   'email' |
-  'whatsapp'
+  'whatsapp' |
+  'telegram'
 }
 
 export default function Button({
@@ -34,7 +35,16 @@ export default function Button({
       case 'search':
       case 'remove':
       case 'arrow':
+      case 'whatsapp':
+      case 'telegram':
         buttonClasses.push(cn[`button--circle`]);
+        break;
+    }
+
+    switch (status) {
+      case 'whatsapp':
+      case 'telegram':
+        buttonClasses.push(cn[`button--${status}`]);
         break;
     }
 
