@@ -1,0 +1,41 @@
+$size: 15px
+
+.footer
+  color: var(--color-bg) !important
+  background-color: var(--color-secondary)
+  padding: $size * 4 0 $size * 7
+
+  &__wrapper
+    display: flex
+    justify-content: space-between
+    gap: $size * 4
+    flex-wrap: wrap
+
+  &__company
+    max-width: 320px
+
+  &__company-info
+    font-size: 16px
+    padding: $size 0 $size * 3
+
+  &__form-wrapper
+    max-width: 280px
+
+    & > p
+      font-size: 12px
+      padding-bottom: $size
+
+  &__columns-wrapper
+    display: flex
+    gap: $size * 3 95px
+    flex-wrap: wrap
+
+  &__column h3
+    padding-bottom: 25px
+    font-weight: 600
+    font-size: 20px
+  
+  &__column ul
+    display: flex
+    flex-direction: column
+    gap: 20px
