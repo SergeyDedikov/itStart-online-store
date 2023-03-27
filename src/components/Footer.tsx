@@ -4,7 +4,6 @@ import ContactGroup, { ContactVariantType } from './ContactGroup';
 import Container from './Container';
 
 import './Footer.sass';
-import List from './List';
 import Button from './UI/Button';
 import Input from './UI/Input';
 import Logo from './UI/Logo';
