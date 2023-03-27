@@ -16,6 +16,7 @@ interface IContactProps {
   icon: ContactVariantType,
   isDisplayIcon?: boolean,
   isLargeIcon?: boolean,
+  isInverted?: boolean,
   firstLine: string,
   secondLine?: string,
   align?: ContactVariantAlign,
@@ -26,6 +27,7 @@ export default function ContactGroup({
   icon,
   isDisplayIcon = true,
   isLargeIcon = false,
+  isInverted = false,
   firstLine,
   secondLine,
   align,
@@ -60,6 +62,8 @@ export default function ContactGroup({
     wrapperClasses.push(cn['contact__wrapper--right']);
     contactClasses.push(cn['contact--right']);
   }
+
+  if (isInverted) wrapperClasses.push(cn['contact__wrapper--inverted']);
 
   return (
     <div className={contactClasses.join(' ')}>
