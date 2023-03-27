@@ -17,9 +17,9 @@ $size: 10px
   font-size: 14px
   line-height: 1.2
   text-align: center
+  cursor: pointer
 
   &:hover
-    cursor: pointer
     background-color: var(--color-primary-dark)
 
   &--circle
@@ -29,9 +29,13 @@ $size: 10px
   
   &--whatsapp
     background-color: #00E676
+    &:hover
+      background-color: darken(#00E676, 10%)
 
   &--telegram
     background-color: #40B3E0
+    &:hover
+      background-color: darken(#40B3E0, 10%)
 
 .icon
   width: $size * 1.5
