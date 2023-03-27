@@ -11,6 +11,7 @@ export interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   'buy' |
   'search' |
   'remove' |
+  'arrow' |
   'edit' |
   'email' |
   'whatsapp'
@@ -23,20 +24,33 @@ export default function Button({
   ...rest
 }: IButtonProps) {
 
+  const buttonClasses: string[] = [cn.button];
   const iconClasses: string[] = [cn.icon];
 
   if (status && status !== 'primary') {
     iconClasses.push(cn[`icon--${status}`]);
+
+    switch (status) {
+      case 'search':
+      case 'remove':
+      case 'arrow':
+        buttonClasses.push(cn[`button--circle`]);
+        break;
+    }
+
+    if (status === 'arrow') iconClasses.push(cn[`not-visible`]);
+
   } else {
     iconClasses.push(cn[`not-visible`]);
     // statusMode = 'button--primary';
   };
 
   const iconClass: string = iconClasses.join(' ');
+  const buttonClass: string = buttonClasses.join(' ');
 
   return (
     <button
-      className={`${cn.button} ${className || ''}`}
+      className={`${buttonClass} ${className || ''}`}
       {...rest}
     >
       {children}

@@ -16,13 +16,16 @@ $size: 10px
   font-weight: 700
   font-size: 14px
   line-height: 1.2
+  text-align: center
 
   &:hover
     cursor: pointer
     background-color: var(--color-primary-dark)
-/* 
-  &--primary
-    gap: 0 */
+
+  &--circle
+    width: $size * 4
+    height: $size * 4
+    padding: 0
 
 .icon
   width: $size * 1.5
@@ -30,15 +33,18 @@ $size: 10px
   background-position: center
   background-repeat: no-repeat
   background-size: cover
-  
+
   &.not-visible
     display: none
 
   &--catalog
     background-image: url('../../images/ui/icon_btn_catalog.svg')
-  
+
   &--search
     background-image: url('../../images/ui/icon_btn_search.svg')
   
+  &--remove
+    background-image: url('../../images/ui/icon_btn_remove.svg')
+
   &--download
     background-image: url('../../images/ui/icon_btn_download.svg')
