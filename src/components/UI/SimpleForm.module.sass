@@ -1,0 +1,24 @@
+$size: 10px
+
+.form
+  height: $size * 6
+  padding: $size
+  padding-left: $size * 2
+  border: none
+  border-radius: $size * 10
+  background-color: var(--color-bg)
+  
+
+  &--gray
+    background-color: var(--color-bg-gray)
+  
+  & label
+    display: flex
+    align-items: center
+    justify-content: space-between
+    gap: $size
+    flex-wrap: nowrap
+
+    & button
+      flex: 1 0 $size * 4
+      
