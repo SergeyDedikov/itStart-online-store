@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/itstart-online-store/static/css/main.c8245c86.css",
+    "main.js": "/itstart-online-store/static/js/main.47a2ad8b.js",
+    "static/js/787.f0513617.chunk.js": "/itstart-online-store/static/js/787.f0513617.chunk.js",
+    "static/media/logo_mastercard.svg": "/itstart-online-store/static/media/logo_mastercard.3efb1aee9d113b360d5c.svg",
+    "static/media/icon_btn_whatsapp.svg": "/itstart-online-store/static/media/icon_btn_whatsapp.6b6abf07bb28acf664f4.svg",
+    "static/media/icon_basket.svg": "/itstart-online-store/static/media/icon_basket.a5d100d0100f4885c179.svg",
+    "static/media/icon_btn_remove.svg": "/itstart-online-store/static/media/icon_btn_remove.52dd0ca00a7578f6d0c5.svg",
+    "static/media/logo_visa.svg": "/itstart-online-store/static/media/logo_visa.e6c32391160195dbfe94.svg",
+    "static/media/icon_email.svg": "/itstart-online-store/static/media/icon_email.3340915fd443967adca6.svg",
+    "static/media/icon_btn_telegram.svg": "/itstart-online-store/static/media/icon_btn_telegram.760427b74f8864ea3edb.svg",
+    "static/media/icon_address.svg": "/itstart-online-store/static/media/icon_address.d148b8d8689c3530f152.svg",
+    "static/media/icon_btn_catalog.svg": "/itstart-online-store/static/media/icon_btn_catalog.4756189f8fb2f4cdf0b3.svg",
+    "index.html": "/itstart-online-store/index.html",
+    "static/media/icon_btn_search.svg": "/itstart-online-store/static/media/icon_btn_search.ea9ef697bfe0d73dc61f.svg",
+    "static/media/icon_not_icon.svg": "/itstart-online-store/static/media/icon_not_icon.bf17dc73421b7f10a027.svg",
+    "static/media/icon_btn_download.svg": "/itstart-online-store/static/media/icon_btn_download.22e356ed7d36f448dcbf.svg",
+    "main.c8245c86.css.map": "/itstart-online-store/static/css/main.c8245c86.css.map",
+    "main.47a2ad8b.js.map": "/itstart-online-store/static/js/main.47a2ad8b.js.map",
+    "787.f0513617.chunk.js.map": "/itstart-online-store/static/js/787.f0513617.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8245c86.css",
+    "static/js/main.47a2ad8b.js"
+  ]
+}
