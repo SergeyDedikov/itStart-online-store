@@ -1,8 +1,10 @@
 import React, { FC, useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
+import './ProductItem.sass';
 import { IProduct } from "../types/types";
-import { getProducts } from './api/api';
+import { getProducts } from '../api/api';
+import Container from './Container';
 
 const ProductItemPage: FC = () => {
 
@@ -26,16 +28,27 @@ const ProductItemPage: FC = () => {
   }
 
   return (
-    <div>
-      <Link to={'/'}>Главная</Link>
-      <Link to={'/catalog'}>Каталог</Link>
-      <span>{product?.name}</span>
-      <h1>Страница товара {product?.name}</h1>
-      <div>
-        {product?.description}
-      </div>
+    <Container>
+      <nav>
+        <ul className='breadcrumbs'>
+          <li>
+            <Link to={'/'}>Главная</Link>
+          </li>
+          <li>
+            <Link to={'/catalog'}>Каталог</Link>
+          </li>
+          <li>
+            {product?.name}
+          </li>
+        </ul>
+      </nav>
 
-    </div>
+      <h1>{product?.name}</h1>
+      <p>
+        {product?.description}
+      </p>
+    </Container>
+
   );
 };
 
