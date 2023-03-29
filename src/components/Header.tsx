@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { useNavigate, useNavigation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import './Header.sass';
 import Container from './Container';
