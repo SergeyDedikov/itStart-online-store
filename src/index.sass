@@ -21,6 +21,10 @@ body
 code
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
 
+span
+  font-weight: 500
+  color: var(--color-text)
+
 ul
   list-style: none
 
@@ -35,3 +39,57 @@ a
   display: inline-flex
   gap: 10px
   padding: 10px 0
+
+.product-list
+  display: flex
+  gap: 20px
+  flex-wrap: wrap
+
+.breadcrumbs
+  height: 16px
+  display: flex
+  gap: 10px
+  flex-wrap: wrap
+  font-weight: 300
+  font-size: 14px
+  line-height: 120%
+  & li:not(:last-of-type)
+    padding-right: 10px
+    border-right: 1px dashed transparentize(#3F4E65, 0.9)
+  & li:last-of-type
+    opacity: 0.5
+
+.page-title
+  font-weight: 500
+  font-size: 40px
+  line-height: 120%
+  text-transform: uppercase
+  color: var(--color-text)
+
+.categories-list
+  display: flex
+  gap: 10px
+  padding: 30px 0
+  flex-wrap: wrap
+
+.category
+  display: flex
+  align-items: center
+  position: relative
+  min-height: 70px
+  min-width: 100px
+  width: min-content
+  padding: 10px
+  box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04)
+  border-radius: 10px
+  font-size: 14px
+  line-height: 17px
+  text-align: center
+
+  & > input
+    position: absolute
+    left: 0
+    top: 0
+    right: 0
+    bottom: 0
+    opacity: 0.3
