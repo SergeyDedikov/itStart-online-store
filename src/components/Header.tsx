@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { useNavigate, useNavigation } from 'react-router-dom';
 
 import './Header.sass';
 import Container from './Container';
@@ -11,6 +12,8 @@ import SimpleForm from './UI/SimpleForm';
 import Input from './UI/Input';
 
 const Header: FC = () => {
+
+  const navigate = useNavigate();
 
   return (
     <header className='header'>
@@ -45,6 +48,7 @@ const Header: FC = () => {
               <Button
                 status='catalog'
                 type='button'
+                onClick={() => navigate('/catalog')}
               >
                 Каталог
               </Button>
