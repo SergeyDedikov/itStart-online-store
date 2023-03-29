@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 
 import cn from './CartInformer.module.sass';
+import { formatAmount } from '../utils/utils';
 
 interface CartInformerProps {
   amount?: number,
@@ -11,13 +12,6 @@ const CartInformer: FC<CartInformerProps> = ({
   amount = 0,
   count
 }: CartInformerProps) => {
-
-  // делаем пробелы через 3 разряда
-  function formatAmount(amount: number): string {
-    return amount
-      ? new Intl.NumberFormat('ru-RU').format(amount)
-      : '';
-  }
 
   return (
     <div className={cn.informer}>
