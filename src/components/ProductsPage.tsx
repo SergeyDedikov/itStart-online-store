@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from 'react';
+import React, { FC, useEffect, useState, useCallback } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 import { IProduct } from "../types/types";
@@ -7,7 +7,13 @@ import Container from './Container';
 import List from "./List";
 import ProductItem from "./ProductItem";
 import CategoriesList from './CategoriesList';
+import { SortControl } from './SortControl';
+import { SortableListItem } from '../types/sortTypes';
 
+const listSortOptions = [
+  { label: "Название", value: "name" },
+  { label: "Цена", value: "price" },
+];
 
 const ProductsPage: FC = () => {
   const [products, setProducts] = useState<IProduct[]>([]);
@@ -22,6 +28,10 @@ const ProductsPage: FC = () => {
       .then(res => setProducts(res))
       .catch(err => console.log(err));
   }
+
+  const handleSortChange = useCallback((data: IProduct[]) => {
+    setProducts(data);
+  }, []);
 
   return (
     <Container>
@@ -38,19 +48,11 @@ const ProductsPage: FC = () => {
         Косметика и гигиена
       </h2>
 
-      <div id='selectSort'>
-        <span>Сортировка: </span>
-        <select>
-          <optgroup label='Название'>
-            <option defaultValue={'nameAscending'}>Название по возрастанию</option>
-            <option value='nameDescending'>Название по убыванию</option>
-          </optgroup>
-          <optgroup label='Цена'>
-            <option value="priceAscending">Цена по возрастанию</option>
-            <option value="priceDescending">Цена по убыванию</option>
-          </optgroup>
-        </select>
-      </div>
+      <SortControl<SortableListItem>
+        data={products}
+        onSortChange={handleSortChange}
+        sortOptions={listSortOptions}
+      />
 
       <CategoriesList />
 
